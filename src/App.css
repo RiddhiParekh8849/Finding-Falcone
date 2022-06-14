@@ -1,0 +1,83 @@
+.Success {
+  text-align: center;
+}
+
+.App h2, p {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.select-container {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.destination-container {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.destination-container > p {
+  margin-bottom: 5px;
+}
+
+.destination-container > select {
+  margin-bottom: 10px;
+}
+
+.vehicle-container {
+  text-align: left;
+}
+
+.vehicle-container > input {
+  display: block;
+}
+
+.btn-find-falcone {
+  display: block;
+  margin: 0 auto;
+}
+
+.reset-container {
+  float: right;
+  margin-right: 20px;
+}
+
+.reset-container li {
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
